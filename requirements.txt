@@ -8,3 +8,4 @@ lime
 matplotlib 
 scikit-image
 opencv-python
+opencv-python-headless
