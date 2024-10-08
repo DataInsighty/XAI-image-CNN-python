@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-import cv2
+#import cv2
 import matplotlib.pyplot as plt
 
 class GradCAM:
@@ -37,7 +37,7 @@ class GradCAM:
 
         # Apply ReLU and resize
         grad_cam = np.maximum(grad_cam, 0)
-        grad_cam = cv2.resize(grad_cam, (input_image.shape[-1], input_image.shape[-2]))
+        #grad_cam = cv2.resize(grad_cam, (input_image.shape[-1], input_image.shape[-2]))
 
         return grad_cam
 
