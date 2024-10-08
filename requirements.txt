@@ -7,4 +7,4 @@ shap
 lime
 matplotlib 
 scikit-image
-cv2
+opencv-python
